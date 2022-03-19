@@ -1,10 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:flutter_wallet/widgets/cards_widgets/choice_button.dart';
 import 'package:flutter_wallet/widgets/cards_widgets/text_widget.dart';
-
 import '../widgets/cards_widgets/carousel_widget.dart';
-// import 'package:flutter_wallet/constants.dart';
 
 class CardsPage extends StatefulWidget {
   const CardsPage({Key? key}) : super(key: key);
