@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
-import '../widgets/balance.dart';
-import '../widgets/choice_button.dart';
-import '../widgets/transaction.dart';
-import '../widgets/wallet_buttons.dart';
+import '../widgets/home_widgets/balance.dart';
+import '../widgets/home_widgets/choice_button.dart';
+import '../widgets/home_widgets/transaction.dart';
+import '../widgets/home_widgets/wallet_buttons.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -89,11 +89,11 @@ class HomePage extends StatelessWidget {
                       day: 'TODAY',
                       title: 'Grocery',
                       subtitle: 'Eataly growntown',
-                      cost: '-60.68',
+                      cost: '-₴60.68',
                       date: 'Aug 26',
                       title2: 'Transport',
                       subtitle2: 'UBER Pool',
-                      cost2: '-6.00',
+                      cost2: '-₴26.00',
                       date2: 'Aug 26',
                     ),
                     const SizedBox(
@@ -146,7 +146,7 @@ class HomePage extends StatelessWidget {
                                     const Spacer(),
                                     Column(
                                       children: const [
-                                        Text('+ 650.00'),
+                                        Text('+ ₴650.00'),
                                         Text('Aug 25'),
                                       ],
                                     ),
@@ -166,11 +166,11 @@ class HomePage extends StatelessWidget {
                       day: 'AUGUST 24',
                       title: 'Grocery',
                       subtitle: 'Eataly growntown',
-                      cost: '-60.68',
+                      cost: '-₴60.68',
                       date: 'Aug 24',
                       title2: 'Transport',
                       subtitle2: 'UBER Pool',
-                      cost2: '-6.00',
+                      cost2: '-₴26.00',
                       date2: 'Aug 24',
                     ),
                   ],

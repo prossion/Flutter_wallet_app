@@ -14,7 +14,7 @@ class BalanceWidget extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: const [
             Text(
-              '2500.50',
+              '₴2500.50',
               style: TextStyle(
                 color: Colors.white,
                 fontSize: 45,
